@@ -1,0 +1,43 @@
+[DebugChecksum]
+Checksum=1357057172
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Count=0
+[ChipconEmu]
+Stop timers on halt=0
+Leave target running=1
+[Aliases]
+A0=_ "D:\WQWORK\PM2.5\Components\mac\low_level\srf04\mac_radio.c" ""
+A1=_ "D:\WQWORK\PM2.5\Components\zmac\f8w\zmac_cb.c" ""
+A2=_ "D:\Zigbeetest\15.基于GenericApp串口无线控制LED灯\15.基于GenericApp串口无线控制LED灯\Components\mac\low_level\srf04\mac_radio.c" ""
+A3=_ "D:\Zigbeetest\15.基于GenericApp串口无线控制LED灯\15.基于GenericApp串口无线控制LED灯\Projects\zstack\ZMain\TI2530DB\ZMain.c" ""
+A4=_ "D:\work\TVOC\IO_CTRL2530\IO_CTRL2530\Components\mac\low_level\srf04\single_chip\mac_mem.c" ""
+A5=_ "D:\work\WQWORK\PM2.5\Projects\zstack\ZMain\TI2530DB\ZMain.c" ""
+A6=_ "E:\PM2.5\Projects\zstack\ZMain\TI2530DB\ZMain.c" ""
+A7=_ "E:\work\IO_CTRL2530\Projects\zstack\ZMain\TI2530DB\ZMain.c" ""
+A8=_ "E:\work\TVOC_CTRL2530\IO_CTRL2530\Projects\zstack\ZMain\TI2530DB\ZMain.c" ""
+Count=9
+SuppressDialog=1
