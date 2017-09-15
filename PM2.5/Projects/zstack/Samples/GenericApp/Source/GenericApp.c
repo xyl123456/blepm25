@@ -891,7 +891,7 @@ void Get_power(void)
    POW_data[1]=0x00;
    //uint16 POW_Tmp = HalAdcRead (HAL_ADC_CHANNEL_0, HAL_ADC_RESOLUTION_12);
    uint16 POW_Tmp = HalAdcRead (HAL_ADC_CHANNEL_0, HAL_ADC_RESOLUTION_12);
-
+  
    if(POW_Tmp>0x0320)
    {
    POW_data[2]=0x64; //100%
@@ -923,7 +923,7 @@ void Get_power(void)
    //µçÔ´³äµç×´Ì¬
    POW_sta[0]=0x0F;
    POW_sta[1]=0x00;
-   if(POW_Tmp>0x0355)
+   if(POW_Tmp>0x0350)
    POW_sta[2]=0x01;
    else
    POW_sta[2]=0x00;
